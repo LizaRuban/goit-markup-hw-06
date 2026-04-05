@@ -59,6 +59,7 @@ img {
 
 .navigation-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 0;
   flex-grow: 1;
@@ -995,4 +996,176 @@ img {
 .mobile-button:hover .mobile-close-icon,
 .mobile-button:focus .mobile-close-icon {
   fill: white;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    padding: 0 20px;
+  }
+
+  .header {
+    padding: 0;
+  }
+
+  .header-container {
+    gap: 122px;
+  }
+
+  .address-container {
+    display: flex;
+  }
+
+  .list-address {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .navigation-list {
+    display: flex;
+    gap: 32px;
+    margin-left: auto;
+  }
+
+  .hero-section {
+    padding: 120px 0;
+  }
+
+  .hero-header-h1 {
+    font-size: 48px;
+  }
+
+  .order-button {
+    margin-top: 40px;
+  }
+
+  .our-features-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .our-features-li {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .our-team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .our-team-li {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .our-portfolio-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+  }
+
+  .our-portfolio-list-li {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .footer-container {
+    align-items: flex-start;
+  }
+
+  .mobile-modal-overlay,
+  .mobile-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1158px) {
+  .container {
+    max-width: 1140px;
+    padding: 0 32px;
+  }
+
+  .address-container {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .list-address {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .web-studio {
+    font-size: 18px;
+  }
+
+  .navigation-list {
+    gap: 40px;
+  }
+
+  .header-container {
+    align-items: center;
+  }
+
+  .hero-section {
+    padding: 188px 0;
+  }
+
+  .hero-header-h1 {
+    font-size: 56px;
+  }
+
+  .our-features-list {
+    gap: 24px;
+  }
+
+  .our-features-li {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .our-team-list {
+    gap: 24px;
+  }
+
+  .our-team-li {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .our-portfolio-list {
+    gap: 24px;
+  }
+
+  .our-portfolio-list-li {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .footer-logo-container,
+  .footer-social-media,
+  .footer-subscribe {
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .footer-social-media {
+    margin-right: 0;
+  }
+
+  .footer-form {
+    width: auto;
+  }
 }
