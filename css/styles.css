@@ -164,8 +164,8 @@ img {
   background-size: cover;
   color: white;
   padding: 72px 0;
-  max-width: 100%;
   margin: 0 auto;
+  max-width: 320px;
 }
 
 .hero-header-h1 {
@@ -598,7 +598,6 @@ img {
 }
 
 .modal {
-  max-width: 90vw;
   width: 100%;
   max-width: 288px;
   border-radius: 4px;
@@ -1033,6 +1032,7 @@ img {
   }
 
   .hero-section {
+    max-width: 768px;
     padding: 120px 0;
   }
 
@@ -1076,10 +1076,6 @@ img {
     width: calc((100% - 24px) / 2);
   }
 
-  .footer-container {
-    align-items: flex-start;
-  }
-
   .mobile-modal-overlay,
   .mobile-menu {
     display: none;
@@ -1106,6 +1102,19 @@ img {
     justify-content: center;
     align-items: center;
     gap: 24px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1157px) {
+  .container-small {
+    max-width: 768px;
+    padding: 0 108px;
+  }
+
+  .footer-container {
+    max-width: 768px;
+    padding: 0 108px;
+    align-items: flex-start;
   }
 }
 
@@ -1139,6 +1148,7 @@ img {
   }
 
   .hero-section {
+    max-width: 1440px;
     padding: 188px 0;
   }
 
