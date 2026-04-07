@@ -1166,6 +1166,14 @@ img {
   }
 
   .footer-form {
-    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .features-icon-box {
+    display: flex;
   }
 }
