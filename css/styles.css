@@ -1121,7 +1121,11 @@ img {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 24px;
+    gap: 0;
+  }
+
+  .footer-button {
+    margin-left: 24px;
   }
 }
 
@@ -1154,6 +1158,10 @@ img {
   .container {
     max-width: 1158px;
     padding: 0 15px;
+  }
+
+  .order-button {
+    margin-top: 48px;
   }
 
   .footer-logo-container {
